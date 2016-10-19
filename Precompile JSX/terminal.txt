@@ -1,0 +1,6 @@
+//In terminal run the following to precompile to dist.js file on changes
+
+babel --presets react src.js -o dist.js --watch
+
+//you will need to have installed babel-preset-react in the dir
+npm i babel-preset-react
